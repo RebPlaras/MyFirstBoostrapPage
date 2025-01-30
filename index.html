@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>My First Bootsrap Page</title>
+  </head>
+  <style>
+  body {
+    background-image: url('imgs-vids/background.png');
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+  }
+  </style>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar Dropdown</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Hobbies.html">My Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Career.html">Career Choices</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="3.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                Link to My Favorite Games
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="https://nier.square-enix-games.com/en-us/">Nier Series</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://persona.atlus.com/series/">Persona Series</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://www.fromsoftware.jp/ww/">Soulslike Games</a>
+              </div>
+          <!-- 
+          </li>
+           <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          -->
+        </div>
+      </nav>
+      <br>
+      <h1 class="text-center mt-3" style="color: white;">My First Bootstrap Page</h1>
+      <br>
+      <div class="container" style="background-color: #5A6268; color: white; padding: 20px; border-radius: 10px; font-family: Roboto, sans-serif; line-height: 2;">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card" style="background-color: #343A40; border-radius: 10px; padding: 10px;">
+            <h3>About Me</h3>
+            <ul>
+              <li><strong>Who am I?</strong></li>
+              <p>Hello! My name is Johnreb Charles Plaras, and I’m a 20-year-old aspiring software developer.</p>
+              <li><strong>Why did I choose Computer Science?</strong></li>
+              <p>
+                - Ever since I was young, I’ve always been surrounded by computers and fascinated by how they work.<br> 
+                - My computer was very old, so I often had to fix it myself, which helped me become familiar with its inner workings.<br>  
+                - Over time, this curiosity grew into a passion for understanding computers on a deeper level. 
+              </p>
+              <li><strong>What field would I like to be in?</strong></li>
+              <p>I see myself thriving in <strong>IT/tech support</strong> because I can’t stand leaving problems unsolved. 
+                I always go out of my way to fix computer issues, and I find great satisfaction in troubleshooting and problem-solving.
+              </p>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-4">
+        <br>
+          <div class="card" style="background-color: #343A40; border-radius: 10px; padding: 10px;">
+            <strong>Picture of Me</strong>
+            <img src="imgs-vids/me.png" class="card-img-top" alt="My Picture" style="border-radius: 10px; width: 100%; height: 500px; object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-sm-4">
+        <br>
+          <div class="card" style="background-color: #343A40; border-radius: 10px; padding: 10px;">
+            <strong>Picture of My Cat #1</strong>
+            <img src="imgs-vids/catto.jpg" class="card-img-top" alt="My Picture" style="border-radius: 10px; width: 100%; height: 500px; object-fit: cover;">
+          </div>
+        </div>
+        <div class="col-sm-4">
+        <br>
+          <div class="card" style="background-color: #343A40; border-radius: 10px; padding: 10px;">
+            <strong>Picture of My Cat #2</strong>
+            <img src="imgs-vids/catto2.jpg" class="card-img-top" alt="My Picture" style="border-radius: 10px; width: 100%; height: 500px; object-fit: cover;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+                  
+                  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
